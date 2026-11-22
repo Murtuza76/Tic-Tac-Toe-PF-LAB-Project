@@ -15,6 +15,7 @@ already-occupied moves.
   * Inputs: Alternating positions (1-9) entered by Player 1 and Player 2.
   * Expected Output: The board updates after each move, and the program
     correctly declares the winning player or a tie.
+    
     ![Case 1](screenshots/case1.png)
 
 * **Case 2: Player vs Computer**
@@ -23,6 +24,7 @@ already-occupied moves.
   * Inputs: A sequence of positions (1-9) entered by the player.
   * Expected Output: The board updates after each move, and the game announces
     a win, loss, or tie once the game ends.
+    
     ![Case 2](screenshots/case2.png)
 
 * **Case 3: Invalid Input & Error Handling**
@@ -32,6 +34,7 @@ already-occupied moves.
     already filled.
   * Expected Output: An "Invalid move or spot already taken!" message appears,
     and the player is prompted to try again without crashing or skipping a turn.
+    
     ![Case 3](screenshots/case3.png)
 
 ## Instructions to Clone and Execute
