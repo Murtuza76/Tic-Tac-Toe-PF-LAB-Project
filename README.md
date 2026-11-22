@@ -37,6 +37,30 @@ already-occupied moves.
     
     ![Case 3](screenshots/case3.png)
 
+## Team Contributions
+
+**Murtaza**
+• Functions: main(), playVsComputer(), computerMove()
+•	Designed the overall program structure and the menu-driven execution flow in main(), including the do-while loop and switch statement.
+•	Implemented the computer’s random move logic in computerMove() using rand() and srand(time(0)).
+•	Implemented the full Player vs Computer game loop, including validation, turn counting and win/tie detection.
+•	Integrated all members’ functions and explained how the different functions interact.
+
+**Ahmed Hanif**
+• Functions: checkWin(), printBoard()
+•	Worked with two-dimensional arrays to represent the board.
+•	Used nested loops to print the board row by row with separators (| and ---).
+•	Wrote the win-checking logic: all three rows, all three columns and both diagonals, returning 1 for a win and 0 otherwise.
+•	These two functions are reused by both game modes, so every win decision and every board display in the program depends on this part.
+
+**Farhaj Abdullah**
+• Functions: playvsplay(), printGuide()
+• Implemented the complete Player vs Player mode, managing alternating turns between Player 1 (X) and Player 2 (O).
+• Took input from players and validated it: the number must be between 1 and 9 and the chosen cell must be empty, with the player asked again otherwise.
+• Converted the chosen position (1–9) into row and column indexes.
+• Detected wins and draws after each move.
+• Created printGuide() to show the 1–9 position layout at the start of the program
+
 ## Instructions to Clone and Execute
 
 ### Step 1: Clone the Repository
