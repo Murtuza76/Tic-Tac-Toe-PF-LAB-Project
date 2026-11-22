@@ -1,4 +1,4 @@
-## A. Project Introduction
+## Project Introduction
 
 This project is a console-based Tic Tac Toe game written in C. A player can face
 another human or a computer opponent that picks random open cells. The program
@@ -7,7 +7,7 @@ and input validation. It includes a numbered position guide, win detection acros
 rows, columns, and diagonals, tie detection, and checks that reject invalid or
 already-occupied moves.
 
-## B. Features & Test Cases (Execution Scenarios)
+## Features & Test Cases
 
 * **Case 1: Player vs Player**
   * Description: Runs a full two-player match, with Player 1 (`X`) and Player 2
